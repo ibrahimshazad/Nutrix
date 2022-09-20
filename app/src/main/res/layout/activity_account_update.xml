@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUTRIX"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:text="First Name:"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:text="Last Name:"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:text="Email Address:"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:text="Phone Number:"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="240dp" />
+
+    <TextView
+        android:id="@+id/securityQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Security Question:"
+        android:layout_below="@id/appName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp" />
+
+    <TextView
+        android:id="@+id/securityA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Security Answer:"
+        android:layout_below="@id/appName"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="320dp" />
+
+    <EditText
+        android:id="@+id/firstnameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:hint="........."
+        android:inputType="text"
+        android:layout_toRightOf="@id/firstname"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp" />
+
+    <EditText
+        android:id="@+id/lastnameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:hint="........."
+        android:layout_toRightOf="@id/lastname"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:hint="........."
+        android:layout_toRightOf="@id/email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp" />
+
+    <EditText
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:inputType="text"
+        android:hint="........."
+        android:layout_toRightOf="@id/phone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp" />
+
+    <EditText
+        android:id="@+id/securityQText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:hint="........."
+        android:layout_toRightOf="@id/securityQ"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp" />
+
+
+    <EditText
+        android:id="@+id/securityAText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:hint="........."
+        android:layout_toRightOf="@id/securityA"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:layout_marginLeft="55dp"
+        android:text="Update"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:layout_marginLeft="195dp"
+        android:text="Reset"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:layout_marginLeft="125dp"
+        android:text="Home"
+        android:layout_marginTop="500dp" />
+
+
+
+</RelativeLayout>

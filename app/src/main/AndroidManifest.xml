@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nutrix">
+
+    <uses-permission android:name="android.permission.Internet" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nutrix"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AccountUpdate"></activity>
+        <activity android:name=".AddLocation" />
+        <activity android:name=".DeleteMealPlanRecipe" />
+        <activity android:name=".AddToMealPlanActivity" />
+        <activity android:name=".NewMealPlanActivity" />
+        <activity
+            android:name=".EditMealPlanActivity"
+            android:label="Create New Meal Plan" />
+        <activity
+            android:name=".ViewMealPlanActivity"
+            android:label="Edit Meal Plan" />
+        <activity android:name=".MealPlanActivity" />
+        <activity android:name=".ActivityAccount" />
+        <activity
+            android:name=".RecipeFullDetail"
+            android:hardwareAccelerated="false" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".Favorite" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".RecipeDetail" />
+        <activity android:name=".Category" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:theme="@style/Theme.Nutrix" />
+        <activity
+            android:name=".LoginActivity"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.Nutrix">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/Theme.Nutrix"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>

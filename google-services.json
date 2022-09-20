@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "592550715754",
+    "firebase_url": "https://nutrix-857fa-default-rtdb.firebaseio.com",
+    "project_id": "nutrix-857fa",
+    "storage_bucket": "nutrix-857fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592550715754:android:5dcd7e0efa932776b3c513",
+        "android_client_info": {
+          "package_name": "com.example.nutrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592550715754-2qfgtp5e9k4ilc4qd97vbo09me74p5b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG7mSWEE4P_nGt2O_iXu4yyur0kviXUT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592550715754-2qfgtp5e9k4ilc4qd97vbo09me74p5b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592550715754:android:f5f518eef8db9c21b3c513",
+        "android_client_info": {
+          "package_name": "com.example.recipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592550715754-2qfgtp5e9k4ilc4qd97vbo09me74p5b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG7mSWEE4P_nGt2O_iXu4yyur0kviXUT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592550715754-2qfgtp5e9k4ilc4qd97vbo09me74p5b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nutrix</string>
+    <string-array name="security_questions">
+        <item><b>What city were you born?"</b></item>
+        <item><b>What is your favorite book?</b></item>
+    </string-array>
+</resources>
+
